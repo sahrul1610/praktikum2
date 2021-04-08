@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>booking</title>
+</head>
+
+<body>
+
+    <h1>
+        <center>TIKET PEMESANAN WISATA</center>
+    </h1><br>
+    <b>Author :</b> Sahrul Fazri Udin<br>
+    selasa, 23 februari 2021
+    <hr>
+
+    <fieldset>
+        <legend>Biodata Pemesan</legend>
+        <table>
+
+            <form action="booking.html" method="POST">
+                <tr>
+                    <td>Nama</td>
+                    <td>: <input type="text" name="username" required="required" /></td>
+                </Tr><br>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>: <input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:<input id="wanita" type="radio" name="jk" value="w" />
+                        <label for="wanita">wanita</label>
+                        <input id="pria" type="radio" name="jk" value="p" />
+                        <label for="pria">pria</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>: <textarea name="answer" cols="22" rows="1">Masukan Alamat anda...</textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Foto Kartu Identitas</td>
+                    <td>: <input type="File" name="cv"></td>
+                </tr>
+
+
+
+
+            </form>
+
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Form Booking</legend>
+        <table>
+            <input type="search" name="cari" size="70" placeholder="cari kode booking">
+            <input type="submit" value="cari">
+            <form action="booking.html" method="POST">
+                <tr>
+                    <td>Kode Boking</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan kode" /></td>
+                    <td>Tanggal Booking</td>
+                    <td>: <input type="date"></td>
+                </Tr>
+                <tr>
+                    <td>Nama</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan nama" /></td>
+                    <td>Jumlah Booking</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="0 " /></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Asal Keberangkatan</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan asal" /></td>
+                    </td>
+                    <td>Tujuan Keberangkatan</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan asal" /></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>No.HP</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan nomor" /></td>
+                    <td>jenis tiket</td>
+                    <td>: <select name="tiket">
+                            <option value="">tiket.....</option>
+                            <option value="1">tiket.....</option>
+                            <option value="2">tiket.....</option>
+                            <option value="3">tiket.....</option>
+                            <option value="4">tiket.....</option>
+                            <option value="">tiket....</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="masukan Email" /></td>
+                    <td>Harga</td>
+                    <td>: <input type="text" name="username" required="required" placeholder="Rp.0" /></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>: <textarea name="answer" cols="22" rows="1">Masukan Alamat anda...</textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="simpan" /><input type="reset" value="reset" /></td>
+                    <td></td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+</body>
+
+</html>
